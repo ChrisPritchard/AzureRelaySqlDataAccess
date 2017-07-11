@@ -3,7 +3,7 @@ Uses a relay listener and a client library to forward database requests through 
 
 Built to call stored procedures against Sql Server, expecting a set of rows back. Should be easily generalisable to other scenarios or database engines (in theory - exercise is left to the reader).
 
-Built in .NET Core (NetStandard, NetCoreApp), but should be possible to convert for earlier frameworks.
+Built in .NET Core (NetStandard, NetCoreApp), but should be possible to convert for earlier frameworks
 
 Use:
 - The RelayForwarder project is a class library you include in your client application. Instantiate a RelayClient with the correct configuration, then when needing to make a database call invoke the ForwardToRelay method

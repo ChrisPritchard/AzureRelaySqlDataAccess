@@ -1,5 +1,5 @@
 
-namespace AzureRelayDataAccess.RelayForwarder
+namespace AzureRelayDataAccess.RelaySharedModel
 {
     /// <summary>
     /// Contains configuration properties needed to access an Azure Relay instance

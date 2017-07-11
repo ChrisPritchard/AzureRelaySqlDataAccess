@@ -7,4 +7,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RelaySharedModel\RelaySharedModel.csproj" />
+  </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
 
-namespace AzureRelayDataAccess.RelayForwarder
+namespace AzureRelayDataAccess.RelaySharedModel
 {
     /// <summary>
     /// A serialisable representation of a stored procedure parameter

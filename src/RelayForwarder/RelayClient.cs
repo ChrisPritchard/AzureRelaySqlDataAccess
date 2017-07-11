@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using AzureRelayDataAccess.RelaySharedModel;
 using Microsoft.Azure.Relay;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;

@@ -120,7 +120,8 @@ namespace AzureRelaySqlDataAccess.RelayListenerDbCaller
                         var reader = await command.ExecuteReaderAsync();
                         var rows = new List<Dictionary<string, object>>();
                         while(reader.Read())
-                            rows.Add(Enumerable.Range(0, reader.FieldCount).ToDictionary(o => reader.GetName(o), o => reader.GetValue(o)));
+                            rows.Add(Enumerable.Range(0, reader.FieldCount).ToDictionary(
+                                o => reader.GetName(o), o => reader.GetValue(o) ?? ""));
                         var responseJson = JsonConvert.SerializeObject(rows);
 
                         Console.WriteLine($"Called DB, received {rows.Count} rows.");

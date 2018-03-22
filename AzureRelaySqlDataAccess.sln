@@ -1,0 +1,69 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A9FE923-053E-4FE5-9A6E-2179E66D3526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayForwarder", "src\RelayForwarder\RelayForwarder.csproj", "{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayListenerDbCaller", "src\RelayListenerDbCaller\RelayListenerDbCaller.csproj", "{57C84F92-4826-4255-8DE0-BE47216D6A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelaySharedModel", "src\RelaySharedModel\RelaySharedModel.csproj", "{7AA961BD-C607-4DF1-B4CD-5017E96510CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Debug|x64.ActiveCfg = Debug|x64
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Debug|x64.Build.0 = Debug|x64
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Debug|x86.ActiveCfg = Debug|x86
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Debug|x86.Build.0 = Debug|x86
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Release|x64.ActiveCfg = Release|x64
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Release|x64.Build.0 = Release|x64
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Release|x86.ActiveCfg = Release|x86
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1}.Release|x86.Build.0 = Release|x86
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Debug|x64.ActiveCfg = Debug|x64
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Debug|x64.Build.0 = Debug|x64
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Debug|x86.ActiveCfg = Debug|x86
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Debug|x86.Build.0 = Debug|x86
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Release|x64.ActiveCfg = Release|x64
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Release|x64.Build.0 = Release|x64
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Release|x86.ActiveCfg = Release|x86
+		{57C84F92-4826-4255-8DE0-BE47216D6A20}.Release|x86.Build.0 = Release|x86
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Debug|x64.ActiveCfg = Debug|x64
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Debug|x64.Build.0 = Debug|x64
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Debug|x86.ActiveCfg = Debug|x86
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Debug|x86.Build.0 = Debug|x86
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Release|x64.ActiveCfg = Release|x64
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Release|x64.Build.0 = Release|x64
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Release|x86.ActiveCfg = Release|x86
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F32FD8E-B0EC-4929-9121-2F22D262AAC1} = {0A9FE923-053E-4FE5-9A6E-2179E66D3526}
+		{57C84F92-4826-4255-8DE0-BE47216D6A20} = {0A9FE923-053E-4FE5-9A6E-2179E66D3526}
+		{7AA961BD-C607-4DF1-B4CD-5017E96510CC} = {0A9FE923-053E-4FE5-9A6E-2179E66D3526}
+	EndGlobalSection
+EndGlobal
